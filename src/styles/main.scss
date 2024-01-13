@@ -7,9 +7,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #000;
     box-sizing: border-box;
     font-family: roboto, sana-serif;
     color: #fff;
+    overflow-x: hidden;
+
     
 }
 .container {
@@ -31,6 +34,20 @@ body {
     text-align: left;
 }
 
-.conatiners {
-    padding: 80px 0 80px;
+section {
+  padding: 60px 20px 80px 20px;
+  width: 100%;
+    
+}
+
+p{
+    padding: 0 20px;
+}
+
+.img-grande {
+    float: left;
+    margin: 0px 16px 6px 0;
+    max-width: 40%;
+    height: auto;
+    padding-left: 20px;
 }

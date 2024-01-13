@@ -1,15 +1,15 @@
 .header {
-    padding: 20px;
-    background-color: rgb(3, 8, 95);
+    padding: 16px;
+    background-color: rgb(3, 6, 66);
     box-shadow: 0 10px 10px  #ebb5b5;
-    margin-bottom: 20px;
-
+    width: 100%;
+    
     .container {
         justify-content: space-between;
         display: flex;
     }
     img {
-        width: 180px;
+        width: 120px;
         border-radius: 10px;
     }
 
@@ -23,19 +23,47 @@
                 font-size: 20px;
                 font-weight: bold;
                 margin-left: 16PX;
-                :hover {
-                    border: 1px solid yellow;
-                    font-size: 25px;
-                }
+                
                 color: #FFF;
-            }
-            
+            } 
         }
     }
     
     &__button {
         text-decoration: none;
         margin-right: 16px;
-        
+
     }
+
+    @media (max-width: 640px){
+        padding: 8px;
+        width: 105%;
+        img {
+            width: 80px;
+            border-radius: 5px;
+        }
+    
+        &__links {
+            display: flex;
+            align-items: center;
+            list-style: none;
+    
+            &__item {
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-left: 8px;
+                    
+                    color: #FFF;
+                }
+               
+                
+            }
+        }
+    
+    }
+}
+
+.header__button:hover {
+    border-bottom: 2px solid rgb(241, 217, 217);
 }
