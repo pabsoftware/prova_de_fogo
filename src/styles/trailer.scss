@@ -1,0 +1,28 @@
+.trailer {
+    //padding: 80px;
+    //background: rgb(115, 46, 199);
+    background: linear-gradient(167deg, rgb(12, 13, 46) 0%, rgba(36, 13, 13, 0.712) 63%, rgb(29, 29, 40) 100%);
+
+
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 24px;
+        font-style: italic;
+        margin-right: 20px;
+    }
+    &__box{
+        display: flex;
+        iframe {
+            float: right;
+            border-radius: 10px;
+            margin-right: 20px;
+            
+        }
+    }
+
+    a {
+        color: aliceblue;
+    }
+}
